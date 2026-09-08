@@ -1,0 +1,17 @@
+{
+  "name": "image-recognition-scripts",
+  "version": "1.0.0",
+  "description": "Build tools and utilities for ImageRecognition extension",
+  "main": "index.js",
+  "scripts": {
+    "build-aix": "node build-aix.js",
+    "generate-extension": "node extension-generator.js",
+    "mock-server": "node mock-server.js",
+    "test-api": "node client.js health"
+  },
+  "dependencies": {
+    "archiver": "^6.0.1",
+    "axios": "^1.6.0",
+    "form-data": "^4.0.0"
+  }
+}
